@@ -1,7 +1,7 @@
 .header {
   display: grid;
   padding: 93px 50px 95px 50px;
-  grid-template-columns: 1fr 160px 1fr;
+  grid-template-columns: 1fr min-content 1fr;
 }
 
 .header__menu {
@@ -126,7 +126,7 @@
 
 .button-bet {
   width: 257px;
-  height: 52px;
+  min-height: 52px;
   font-size: 22px;
   border: 1px solid #fff;
   padding: 12px 32px;
@@ -288,12 +288,18 @@
 }
 
 .footer__menu-link {
-  font-size: 17px;
+  font-size: 18px;
+  text-align: center;
   color: #000;
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .footer__social-icon {
   height: 47px;
+  min-width: 47px;
 }
 
 .footer__social-list {
